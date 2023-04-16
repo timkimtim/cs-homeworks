@@ -1,0 +1,10 @@
+#root {
+  background: #272744;
+  height: 100vh;
+  color: #fbf5ef;
+  font-family: "OpenSans", serif;
+  font-size: 20px;
+}
+.title {
+  @apply text-xl mb-8;
+}

@@ -1,0 +1,20 @@
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $format: 'woff') {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+    @if $format == 'woff' {
+      src: url('#{$file-path}.#{$format}') format($format);
+    } @else {
+      src: url('#{$file-path}.#{$format}') format('truetype');
+    }
+  }
+}
+
+@include font-face('OpenSans', '/assets/fonts/OpenSans-Light', 300, normal, 'woff2');
+@include font-face('OpenSans', '/assets/fonts/OpenSans-Regular', 400, normal, 'woff2');
+@include font-face('OpenSans', '/assets/fonts/OpenSans-Medium', 500, normal, 'woff2');
+@include font-face('OpenSans', '/assets/fonts/OpenSans-SemiBold', 600, normal, 'woff2');
+@include font-face('OpenSans', '/assets/fonts/OpenSans-Bold', 700, normal, 'woff2');
+@include font-face('OpenSans', '/assets/fonts/OpenSans-ExtraBold', 800, normal, 'woff2');

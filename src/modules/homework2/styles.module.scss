@@ -1,0 +1,16 @@
+@import 'src/styles/colors';
+
+.exercise_block {
+  @apply pb-8;
+  border-bottom: 1px solid $color_yellow;
+
+  .btn_wrapper {
+    @apply flex mt-8;
+
+  }
+  .btn {
+    @apply py-2 px-4 min-w-[160px] mr-4;
+    background: $color-dark_pink;
+    border-radius: 8px;
+  }
+}
