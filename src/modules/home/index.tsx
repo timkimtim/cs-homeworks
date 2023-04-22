@@ -12,6 +12,7 @@ export const Home: FC = () => {
           <span aria-hidden="true">Курс Computer Science во frontend</span>
         </p>
       </div>
+      <div className={styles.text}>Качай базу</div>
     </div>
   );
 };
