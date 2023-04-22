@@ -68,4 +68,8 @@ $color3: #fbf5ef;
       -0.04em -0.025em 0 $color3;
     }
   }
+
+  .text {
+    @apply mt-32 text-center text-4xl;
+  }
 }
