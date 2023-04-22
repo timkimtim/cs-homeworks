@@ -96,6 +96,7 @@ module.exports = {
     'no-bitwise': 'off',
     'operator-assignment': 'off',
     'no-console': 'off',
+    'no-restricted-syntax': 'off',
   },
   settings: {
     'import/resolver': {
