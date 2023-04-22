@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { encode, Schema } from 'modules/homework2/utils';
+import { decode, encode, Schema } from 'modules/homework2/utils';
 
 import styles from '../styles.module.scss';
 
@@ -14,7 +14,7 @@ export const Task2: FC = () => {
 
   const data = encode([2, 3, true, false, 'ab'], schema);
   console.log(data);
-  // console.log(decode(data, schema)); // [2, 3, true, false, 'ab']
+  console.log(decode(data, schema)); // [2, 3, true, false, 'ab']
   return (
     <>
       <div className="title mt-10">Задание 2 и 3</div>

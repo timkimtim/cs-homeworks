@@ -104,7 +104,7 @@ export const Task1: FC = () => {
             Grayscale
           </button>
           <button type="button" className={styles.btn} onClick={invert}>
-            Inverted
+            Invert
           </button>
         </div>
       </div>

@@ -63,8 +63,5 @@
       "eslint --cache",
       "bash -c tsc"
     ]
-  },
-  "resolutions": {
-    "react-scripts/postcss-preset-env/postcss-custom-properties": "^12.1.8"
   }
 }
