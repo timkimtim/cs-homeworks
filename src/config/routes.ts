@@ -25,4 +25,12 @@ export const routes: RoutesProps = {
     module: Modules.homework2,
     componentName: 'Homework2',
   },
+  homework3: {
+    id: 3,
+    title: 'Homework 3',
+    path: '/homework3',
+    isNavItem: true,
+    module: Modules.homework3,
+    componentName: 'Homework3',
+  },
 };

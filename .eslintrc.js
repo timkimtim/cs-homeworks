@@ -98,6 +98,7 @@ module.exports = {
     'no-console': 'off',
     'no-plusplus': 'off',
     'no-case-declarations': 'off',
+    'no-restricted-syntax': 'off',
   },
   settings: {
     'import/resolver': {
